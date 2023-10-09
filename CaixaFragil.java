@@ -20,9 +20,8 @@ public class CaixaFragil extends Caixa{
          }
     }
     
-    public void exibirEtiqueta(){
-        super.exibirEtiqueta();
-        System.out.println("Peso máximo suportado pela caixa: " + pesoMaxSuportado + " Kg");
-    }
+    public String exibirEtiqueta(){
+        String exibir = super.exibirEtiqueta();
+         return("Peso maximo suportrado em kg: " + this.pesoMaxSuportado + "\n");
     
 }
