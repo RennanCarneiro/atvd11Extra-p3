@@ -25,3 +25,4 @@ public class CaixaFragil extends Caixa{
          return("Peso maximo suportrado em kg: " + this.pesoMaxSuportado + "\n");
     
 }
+}
